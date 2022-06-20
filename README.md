@@ -3,10 +3,13 @@
 
 ### 依赖nodejs环境 
 1,npm i 安装包 
+
 2,启动不同命令查看不同界面
 
 npm run hp 启动转债楼，配置的代码都在zhai.js里
+
 npm run hp2 启动布大楼，配置的代码都在buda.js里
+
 npm run hp3 启动驴大楼，配置的代码都在short.js里
 
 ### 记得每个月定时更新布大楼和驴大楼帖子的id，大楼的网页链接里有
