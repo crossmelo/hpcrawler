@@ -1,7 +1,7 @@
 const express = require('express');
 const queryLen = require('./utils');
 const app = express();
-const tiezi = 53992469;
+const tiezi = 53992469; // 大楼的id，网页链接里有
 
 queryLen(tiezi);
 setInterval(() => {

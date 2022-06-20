@@ -6,7 +6,7 @@ const reg = /\n|\s+/g;
 const reg2 = /<[^>]*>/g;
 const reg3 = /发自|手机|虎扑|m.hupu.com|客户端|iPhone|Android/g;
 const reg4 = /&nbsp;/g;
-const highlightList = ['希夏邦驴', '东方无愧', '再碰中位emo', '波king', '鲁西有救了', '国足啊队长'];
+const highlightList = ['希夏邦驴', '东方无愧', '再碰中位emo', '波king', '鲁西有救了', '国足啊队长']; // 大佬们
 
 class Spider {
   fetch(url, callback) {
