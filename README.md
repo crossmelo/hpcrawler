@@ -13,7 +13,7 @@ npm run hp2 启动布大楼，配置的代码都在buda.js里
 npm run hp3 启动驴大楼，配置的代码都在short.js里
 
 ### 记得每个月定时更新布大楼和驴大楼帖子的id，大楼的网页链接里有
-比如修改buda.js里 tiezi 这个参数的值，换成新的值
+比如修改config.js里 budaId和shortId两个参数的值，换成新的值
 
 ### 大佬们发言支持黄色字体，可以添加和修改你想看的名字
 比如修改utils.js 里 highlightList 这个数组的值

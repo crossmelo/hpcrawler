@@ -1,11 +1,11 @@
 const express = require('express');
 const queryLen = require('./utils');
+const config = require('./config');
 const app = express();
-const tiezi = 53990506; // 大楼的id，网页链接里有
 
-queryLen(tiezi);
+queryLen(config.budaId);
 setInterval(() => {
-  queryLen(tiezi);
+  queryLen(config.budaId);
 }, 60000);
 
 app.listen(6666, () => {
