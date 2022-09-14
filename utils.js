@@ -8,6 +8,8 @@ const reg2 = /<[^>]*>/g;
 const reg3 = /发自|手机|虎扑|m.hupu.com|客户端|iPhone|Android/g;
 const reg4 = /&nbsp;/g;
 
+let count = 0;
+
 class Spider {
   fetch(url, callback) {
     request({ url: url, encoding: null }, (err, response, body) => {
@@ -60,8 +62,12 @@ exports = module.exports = queryLen;
 function queryLen(tiezi) {
   const spider = new Spider();
   spider.fetch(`https://bbs.hupu.com/${tiezi}.html`, async (err, $) => {
+    count += 1;
+    if (count % 4 === 1) {
+      console.clear();
+    }
     const len = spider.parseLen(err, $);
-    // await queryData(len - 2);
+    await queryData(tiezi, len - 2);
     await queryData(tiezi, len - 1);
     await queryData(tiezi, len);
 

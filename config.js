@@ -1,6 +1,6 @@
 const config = {
-  budaId: 54968598, // 布大楼id，每月更新
-  shortId: 54970054, // 驴大楼id，每月更新
+  budaId: 55355678, // 布大楼id，每月更新
+  shortId: 55356214, // 驴大楼id，每月更新
   zhaiId: 44235537, // 转债楼id
   highlightList: ['希夏邦驴', '东方无愧', '再碰中位emo', '波king', '鲁西有救了', '国足啊队长', 'gechid'], // 大佬们的名字会变成黄色
 };
