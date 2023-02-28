@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hp": "node zhai.js",
+    "hp": "node short.js",
     "hp2": "node buda.js",
-    "hp3": "node short.js",
+    "hp3": "node you.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
