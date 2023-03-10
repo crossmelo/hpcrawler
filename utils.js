@@ -33,7 +33,7 @@ class Spider {
 
   parseData(err, $) {
     if (!err) {
-      $('.bbs-post-wrapper-content .post-reply-list').each((i, v) => {
+      $('.post-reply-list-wrapper .post-reply-list').each((i, v) => {
         const author = $(v)
           .find('.reply-list-content .user-base-info')
           .find('a')
@@ -52,6 +52,8 @@ class Spider {
           console.log(author, ':', text);
         }
       });
+    } else {
+      console.log(1111);
     }
   }
 }
